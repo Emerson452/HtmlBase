@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+}
+
+/* NAVBAR */
+.navbar{
+    background-color: rgb(255, 123, 123);
+    height: 10%;
+    border: solid 2px black;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+.btn-navbar{
+    width: 50%;
+}
+.liste-navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+h3{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+li{
+    text-decoration: none;
+}
+
+#titre {
+  background-color: red;
+}
+
+.titre2 {
+  background-color: green;
+}
+
+.container-img {
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-img > img {
+  width: 60%;
+}
+
+.container-card {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 30%;
+}
+
+.t1 {
+  background-color: blue;
+}
+
+.t2 {
+  background-color: red;
+}
+
+.t3 {
+  background-color: green;
+}
+
+#bmw{
+  width: 10%;
+float: right;
+}
+
+.container-section{
+  display: flex;
+  justify-content: space-between;
+  gap: 0%;
+  width: 100%;
+}
+.sectionleft{
+  width: 30%;
+  height: 1000px;
+  background-color: aqua;
+}
+
+.sectionright{
+  width: 70%;
+  height: 1000px;
+  background-color: blue;
+}
+
+
+section{
+  border: solid 2px red;
+}
+
+
+.progressbar{
+  height: 20px;
+  width: 60%;
+  border: 2px solid black;
+}
+
+.on{
+  background-color: green;
+  height: 100%;
+  width: 60%;
+
+}
+
+.off{
+  background-color: white;
+}
